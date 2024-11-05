@@ -1,0 +1,18 @@
+.HotAccessories{
+    display: flex;
+    margin: auto;
+    border: solid red;
+    width: 90vw;
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first{
+        transition: all 0.5s;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-0.4vmax);
+            box-shadow: 0 6px 15px rgb(33, 24, 24);
+        }
+    }
+}

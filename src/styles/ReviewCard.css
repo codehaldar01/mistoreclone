@@ -1,0 +1,25 @@
+.ReviewCard{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px green ;
+    align-items: center;
+    width: 40%;
+    margin: 1vmax;
+    transition: all 0.7s;
+}
+.ReviewCard>img{
+    width: 70%;
+}
+.ReviewCard p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ReviewCard span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    margin: -1vmax 0 1vmax 0;
+}
+.ReviewCard:hover{
+    cursor: pointer;
+    transform: translateY(0.3vmax);
+    box-shadow: 3px 6px 15px rgb(28, 20, 20);
+}
